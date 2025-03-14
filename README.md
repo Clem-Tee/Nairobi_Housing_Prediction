@@ -23,7 +23,7 @@ The dataset contains apartment rental listings with the following features:
 
 ### 1️⃣ Clone the Repository  
 ```sh
-git clone https://github.com/yourusername/nairobi_apartment_prediction.git
+git clone https://github.com/Clem-Tee/nairobi_apartment_prediction.git
 cd nairobi_apartment_prediction
 ```  
 
