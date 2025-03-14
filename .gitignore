@@ -1,0 +1,26 @@
+# Ignore virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Ignore dataset files (optional: uncomment if you want to keep data private)
+data/*.csv
+data/*.xlsx
+
+# Ignore model artifacts
+models/*.pkl
+models/*.pk1
+models/*.sav
+models/*.joblib
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and system files
+*.log
+.DS_Store
+*.swp
+*.swo
+
+# Ignore environment variables (if using an env file)
+.env
