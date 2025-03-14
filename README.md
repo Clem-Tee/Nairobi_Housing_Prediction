@@ -1,65 +1,74 @@
-🏡 Nairobi Apartment Price Prediction
-An AI-powered model to predict apartment rental prices in Nairobi using Machine Learning.
+# 🏡 Nairobi Apartment Price Prediction 💰
 
-🚀 Tech Stack
-Python: Utilizes libraries like Pandas, NumPy, and Seaborn for data manipulation and visualization.
+This project predicts apartment rental prices in Nairobi based on features such as neighborhood, number of bedrooms, and bathrooms.
 
-Scikit-learn: Employs machine learning capabilities, specifically Random Forest Regression.
+## 🚀 Tech Stack  
+- **Python** 🐍  
+- **Pandas, NumPy, Seaborn** 📊  
+- **Scikit-learn** 🤖  
+- **Random Forest Regression** 🌳  
 
-Joblib: Used for model persistence to ensure efficient model loading and saving.
+## 📜 Dataset  
+The dataset contains apartment rental listings with the following features:  
+- **Neighborhood** (categorical)  
+- **Bedrooms** (numerical)  
+- **Bathrooms** (numerical)  
+- **Price (KES)** (target variable)  
 
-📜 Dataset Overview
-This project analyzes apartment rental prices in Nairobi based on key features:
+## 📈 Model Performance  
+- **Baseline MAE:** 33,232 KES  
+- **Trained Model MAE:** 24,052 KES (27% improvement 🎯)  
 
-Neighborhood: The location of the apartment.
+## 🔧 Installation & Setup  
 
-Bedrooms: Number of bedrooms.
-
-Bathrooms: Number of bathrooms.
-
-Price (KES): The target variable for prediction.
-
-📈 Model Performance
-Baseline MAE: 33,232 KES
-
-Trained Model MAE: 24,052 KES (27% Improvement 🎯)
-
-🔧 Installation & Setup
-1️⃣ Clone the Repository
-
-text
+### 1️⃣ Clone the Repository  
+```sh
 git clone https://github.com/yourusername/nairobi_apartment_prediction.git
 cd nairobi_apartment_prediction
-2️⃣ Create a Virtual Environment & Install Dependencies
+```  
 
-text
+### 2️⃣ Create a Virtual Environment & Install Dependencies  
+```sh
 # Create a virtual environment
 python -m venv venv
 
 # Activate the virtual environment
 # On Windows:
 venv\Scripts\activate
-
 # On macOS/Linux:
 source venv/bin/activate
 
 # Install required packages
 pip install -r requirements.txt
-3️⃣ Create Required Directories
+```  
 
-text
+### 3️⃣ Create Required Directories  
+```sh
 mkdir models
-Note: The models/ directory is ignored in Git to prevent tracking large files. You must create it manually before training the model.
+```  
+> **Note:** The `models/` directory is ignored in Git to prevent tracking large files. You must create it manually before training the model.
 
-📊 Usage
-1️⃣ Train the Model
-text
+## 📊 Usage  
+
+### 1️⃣ Train the Model  
+```sh
 python src/train_model.py
-2️⃣ Predict Apartment Prices
-text
+```  
+After training, the model will be saved in the `models/` directory.  
+
+### 2️⃣ Predict Apartment Prices  
+```sh
 python src/predict.py
-🛠 Project Structure
-text
+```  
+The script will prompt you to enter:  
+✔ **Neighborhood** (e.g., "Westlands")  
+✔ **Bedrooms** (e.g., "2")  
+✔ **Bathrooms** (e.g., "2")  
+
+It then predicts the apartment price based on the trained model.  
+
+## 🛠 Project Structure  
+```bash
 nairobi_apartment_prediction/
 │── data/                # Contains the dataset (ignored in Git)
 │── models/              # Stores trained models (ignored in Git)
@@ -71,10 +80,14 @@ nairobi_apartment_prediction/
 │── LICENSE              # MIT License
 │── README.md            # Project documentation
 │── requirements.txt     # Dependencies
-⚖️ License
-© 2025 Clement Ogol. All Rights Reserved.
-This project is licensed under the MIT License. See the LICENSE file for details.
+```  
 
-⭐ Contribute & Support
-If you find this project useful, please ⭐ star the repository!
-Feel free to contribute by submitting pull requests or reporting issues.
+## ⚖️ License  
+© 2025 Clement Ogol. All Rights Reserved.  
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
+
+## ⭐ Contribute & Support  
+If you find this project useful, please ⭐ star the repository!  
+Feel free to contribute by submitting pull requests or reporting issues.  
+
+🚀 **Happy Coding!**  
