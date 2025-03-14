@@ -16,8 +16,8 @@ The dataset contains apartment rental listings with the following features:
 - **Price (KES)** (target variable)  
 
 ## 📈 Model Performance  
-- **Baseline MAE:** 33,232 KES  
-- **Trained Model MAE:** 24,052 KES (27% improvement 🎯)  
+- **Baseline MAE:** 33,334 KES  
+- **Trained Model MAE:** 24,052 KES (28% improvement 🎯)  
 
 ## 🔧 Installation & Setup  
 
