@@ -33,3 +33,9 @@ python src/train_model.py
 
 # Predict price
 python src/predict.py
+
+## License
+
+© 2025 Clement Ogol. All Rights Reserved.
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
