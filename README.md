@@ -29,56 +29,45 @@ This project analyzes apartment rental prices in Nairobi based on key features:
 
 ## 🔧 Installation & Setup  
 
-### **1️⃣ Clone the Repository**  
+### **1️⃣ Clone the Repository** 
 ```sh
 git clone https://github.com/yourusername/nairobi_apartment_prediction.git
 cd nairobi_apartment_prediction
-2️⃣ Create a Virtual Environment & Install Dependencies
-sh
-Copy
-Edit
+
+### **2️⃣ Create a Virtual Environment & Install Dependencies**
+```sh
 # Create a virtual environment
 python -m venv venv
 
+```sh
 # Activate the virtual environment
 # On Windows:
 venv\Scripts\activate
+
+```sh
 # On macOS/Linux:
 source venv/bin/activate
 
+```sh
 # Install required packages
 pip install -r requirements.txt
-3️⃣ Create Required Directories
-sh
-Copy
-Edit
+
+### **3️⃣ Create Required Directories**
+```sh
 mkdir models
 Note: The models/ directory is ignored in Git to prevent tracking large files. You must create it manually before training the model.
 
-📊 Usage
-1️⃣ Train the Model
-sh
-Copy
-Edit
+## 📊 Usage
+### **1️⃣ Train the Model**
+```sh
 python src/train_model.py
-After training, the model will be saved in the models/ directory.
 
-2️⃣ Predict Apartment Prices
-sh
-Copy
-Edit
+### **2️⃣ Predict Apartment Prices**
+```sh
 python src/predict.py
-The script will prompt you to enter:
-✔ Neighborhood (e.g., "Westlands")
-✔ Bedrooms (e.g., "2")
-✔ Bathrooms (e.g., "2")
 
-It then predicts the apartment price based on the trained model.
-
-🛠 Project Structure
-bash
-Copy
-Edit
+## 🛠 Project Structure
+```sh
 nairobi_apartment_prediction/
 │── data/                # Contains the dataset (ignored in Git)
 │── models/              # Stores trained models (ignored in Git)
@@ -90,12 +79,13 @@ nairobi_apartment_prediction/
 │── LICENSE              # MIT License
 │── README.md            # Project documentation
 │── requirements.txt     # Dependencies
-⚖️ License
+
+## ⚖️ License
 © 2025 Clement Ogol. All Rights Reserved.
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-⭐ Contribute & Support
+## ⭐ Contribute & Support
 If you find this project useful, please ⭐ star the repository!
 Feel free to contribute by submitting pull requests or reporting issues.
 
-🚀 Happy Coding!
+## 🚀 Happy Coding!
